@@ -1,0 +1,1 @@
+curl --silent --header "Content-Type: application/json"   --request POST   --data '{"postId":"4e9ab7a6-41dc-42f3-bb51-0e09617b2fc9"}'   http://localhost:8080/post/by-id | jq .
